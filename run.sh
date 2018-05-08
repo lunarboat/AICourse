@@ -9,8 +9,8 @@ echo current dir is $PWD
 export PYTHONPATH=$PYTHONPATH:$DIR:$DIR/slim:$DIR/object_detection
 
 # 定义各目录
-output_dir=/output  # 训练目录
-dataset_dir=/data/ai100/quiz-w8 # 数据集目录，这里是写死的，记得修改
+output_dir=/research  # 训练目录
+dataset_dir=/data/u011449317/objectdetectiondemodataset # 数据集目录，这里是写死的，记得修改
 
 train_dir=$output_dir/train
 checkpoint_dir=$train_dir
